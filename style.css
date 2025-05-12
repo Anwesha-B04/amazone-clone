@@ -1,7 +1,7 @@
 * {
     margin: 0;
     font-family: Arial;
-    border: border box;
+    box-sizing: border-box;
 }
 
 .navbar{
@@ -13,4 +13,12 @@
 
 .logo{
     background-image: url(pictures/amazon_logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.navbar-logo{
+    height: 50px;
+    width: 114px;
 }
