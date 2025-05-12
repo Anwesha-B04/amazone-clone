@@ -1,5 +1,16 @@
-.navbar{
+* {
     margin: 0;
     font-family: Arial;
     border: border box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: rgb(15, 17, 17);
+    color: white;
+
+}
+
+.logo{
+    background-image: url(pictures/amazon_logo.png);
 }
