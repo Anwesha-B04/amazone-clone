@@ -8,6 +8,7 @@
     height: 60px;
     background-color: rgb(15, 17, 17);
     color: white;
+    align-items: center;
 
 }
 
@@ -16,9 +17,21 @@
     height: 50px;
     width: 100%;
     background-size: cover;
+    
 }
 
 .navbar-logo{
-    height: 50px;
+    height: 55px;
     width: 114px;
+    align-items: center;
+    
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.1px solid white;
+    border-radius: 3px;
 }
